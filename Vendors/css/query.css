@@ -1,0 +1,113 @@
+
+    /* Big tablets */
+    @media only screen and (max-width: 1200px) {
+        .hero-text-box{
+            width: 100%;
+            padding: 0 2%;
+        }
+
+        .row{
+            padding: 0 2%;
+        }
+        .works-step div{ 
+            padding: 1px;
+            height: 25px;
+            width: 25px;
+            font-size:100% ;
+            border: 2px solid black;
+        }
+        .btn-app img{
+        height: 40px;
+        margin-top: 16px;
+        }
+        .app-screen{
+            width: 30%;
+            transform: translateX(50px);
+            }
+    }
+    /* Small tablets to big tablets from 823px to 1023px*/
+    @media only screen and (max-width: 1023px) {
+       body{
+        font-size: 16px;
+       }
+      
+    .plan-price{
+        font-size:200%;
+    }
+    .steps-box img{
+       transform: scaleX(-30px);
+    }
+    .work-step div{
+        height: 45px;
+        width: 45px;
+       font-size: 120%;
+       text-align: center;
+    }
+    .app-screen{
+        width: 40%;
+    }
+   
+    
+}
+
+    /* Small phones to small tablets from 650px to 823px */
+    @media only screen and (max-width: 700px) {
+      body{
+        font-size: 14px;
+      }
+     /* .row-flex{
+        flex-direction: column;
+         margin: auto 30px; */
+     
+     .span_1_of_3{ 
+        width: 100%;
+        }
+
+       .logo{
+        height: 120px;
+        width: auto;
+       } 
+    .app-screen{
+        width: 40%;
+        transform: translateX(0px);
+        }
+      .work-step div{
+        height: 35px;
+        width: 35px;
+        padding: 4px;
+        margin-right: 15px;
+        font-size: 100%;
+    }   
+
+    .main-nav{
+        display: none;
+    }
+    #humburger{
+        display: block;
+        height: 70px;
+        width: auto;
+        float: right;
+        margin-top: 15px;
+       
+     }
+    
+
+     
+      
+   
+    
+ } 
+    /* Small phones from 0 to 400px*/
+    @media only screen and (max-width: 485px) {
+        body{
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .row-flex{
+            flex-direction: column;
+             margin: auto 30px;
+    }
+    .plan-price{
+        font: bold;
+    }
+}
